@@ -4,3 +4,4 @@ __pycache__
 *.eps
 *.png
 *.npz
+*.pyc

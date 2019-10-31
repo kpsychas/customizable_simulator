@@ -15,14 +15,15 @@ class Program:
     PLOT2 = 4
 
 
-RUNTAG = "runB"
+PROGRAM = Program.EXAMPLE1
+SAVE = True
+RUNTAG = "runA"
+
 FILETAG = os.path.basename(__file__)[:-3]
 OUTPUTFOLDER = "outputs"
 STEPS = int(1e5)
 LOG_STEPS = STEPS//20
 PLOT_STRIDE = 100
-SAVE = True
-PROGRAM = Program.PLOT2
 
 
 def main_example1(simulator):

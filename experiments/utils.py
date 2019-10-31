@@ -1,19 +1,9 @@
+from __future__ import print_function
+
 import os
 import time
 
 import matplotlib.pyplot as plt
-import numpy as np
-
-
-# def my_plot(y, t, label, color=None, mean_in_legend=False, linewidth=0.5):
-#     if mean_in_legend:
-#         mean_total_y = np.dot(t, y) / t.sum()
-#         plt.plot(t.cumsum(), y, color=color,
-#                  label='{} {:.2f}'.format(label, mean_total_y),
-#                  linewidth=linewidth)
-#     else:
-#         plt.plot(t.cumsum(), y, color=color, label='{}'.format(label),
-#                  linewidth=linewidth)
 
 
 class NameGen(object):
